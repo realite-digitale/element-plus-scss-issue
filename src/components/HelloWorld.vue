@@ -31,6 +31,10 @@ const toast = () => {
   <div class="my-2 text-center flex flex-wrap justify-center items-center">
     <el-button @click="count++">count is: {{ count }}</el-button>
     <el-button type="primary" @click="count++">count is: {{ count }}</el-button>
+
+    <!--We try to use the new type of color declared in element/index.scss-->
+    <el-button type="secondary" @click="count++">Issue color secondary</el-button>
+
     <el-button type="success" @click="count++">count is: {{ count }}</el-button>
     <el-button type="warning" @click="count++">count is: {{ count }}</el-button>
     <el-button type="danger" @click="count++">count is: {{ count }}</el-button>
